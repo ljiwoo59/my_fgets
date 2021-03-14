@@ -14,7 +14,7 @@ Read content line by line
 * **_get\_next\_line_** will read a file with the amount of _BUFFER\_SIZE_ and determine if the string is a line or not.
 - If the string read is not a line, a function will read a file with same amount again.
 
-> ```c
+```c
 static char *saved[OPEN_MAX]
 ```
 
@@ -22,7 +22,7 @@ static char *saved[OPEN_MAX]
 * Used double pointer to manage strings from **n** files.
 * Will hold lines read until the program ends.
 
-> ```c
+```c
 char buf[BUFFER_SIZE + 1]
 ```
 
